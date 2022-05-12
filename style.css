@@ -1,0 +1,83 @@
+body{
+    background-color: #191B1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#keyboard{
+    display: flex;
+    flex-direction: column;
+    align-content: justify;
+    gap: 2em
+}
+
+#board{
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+}
+#answer{
+    display: flex;
+}
+
+.keyboard-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.game-text{
+    font-size: 48px;
+}
+
+.keyboard-key{
+    display: flex;
+    width: 2em;
+    text-align: center;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+.clickable:hover{
+    cursor: pointer;
+}
+
+/* .clickable:active{
+    color: yellow;
+} */
+
+.keypressed{
+}
+.keypressed-correct{
+    color: green;
+}
+.keypressed-incorrect{
+    color: red;
+}
+
+.expand{
+    width: 2.2em;
+    font-size: 50px;
+}
+
+#hint{
+    margin: 1rem;
+    color: white;
+    transition: .6s;
+}
+#hint:hover{
+    text-shadow: 0 0 8px gold;
+}
+
+.word-space{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 50px;
+}
+
+.word-space-h{
+    background-color: white-smoke;
+    border-right: 2px solid grey;
+}

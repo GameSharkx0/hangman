@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="keyboard">
+        <div id="top-row" class="keyboard-row">
+            <div class="keyboard-key clickable game-text" value="q">Q</div>
+            <div class="keyboard-key clickable game-text" value="w">W</div>
+            <div class="keyboard-key clickable game-text" value="e">E</div>
+            <div class="keyboard-key clickable game-text" value="r">R</div>
+            <div class="keyboard-key clickable game-text" value="t">T</div>
+            <div class="keyboard-key clickable game-text" value="y">Y</div>
+            <div class="keyboard-key clickable game-text" value="u">U</div>
+            <div class="keyboard-key clickable game-text" value="i">I</div>
+            <div class="keyboard-key clickable game-text" value="o">O</div>
+            <div class="keyboard-key clickable game-text" value="p">P</div>
+        </div>
+        <div id="middle-row" class="keyboard-row">
+            <div class="keyboard-key clickable game-text" value="a">A</div>
+            <div class="keyboard-key clickable game-text" value="s">S</div>
+            <div class="keyboard-key clickable game-text" value="d">D</div>
+            <div class="keyboard-key clickable game-text" value="f">F</div>
+            <div class="keyboard-key clickable game-text" value="g">G</div>
+            <div class="keyboard-key clickable game-text" value="h">H</div>
+            <div class="keyboard-key clickable game-text" value="j">J</div>
+            <div class="keyboard-key clickable game-text" value="k">K</div>
+            <div class="keyboard-key clickable game-text" value="l">L</div>
+        </div>
+        <div id="bottom-row" class="keyboard-row">
+            <div class="keyboard-key clickable game-text" value="z">Z</div>
+            <div class="keyboard-key clickable game-text" value="x">X</div>
+            <div class="keyboard-key clickable game-text" value="c">C</div>
+            <div class="keyboard-key clickable game-text" value="v">V</div>
+            <div class="keyboard-key clickable game-text" value="b">B</div>
+            <div class="keyboard-key clickable game-text" value="n">N</div>
+            <div class="keyboard-key clickable game-text" value="m">M</div>
+        </div>
+    </section>
+    <section id="board">
+        <section id="easel">
+            <canvas id="easel-picture"></canvas>
+        </section>
+    </section>
+    <section id="answer">
+    </section>
+    <div id="hint" class="game-text clickable">Hint?</div>
+    <script src="script.js"></script>
+</body>
+</html>
